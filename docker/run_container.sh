@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Remove existing container
+docker container stop assembler-container
 docker container rm assembler-container
 
 # Build the Docker image
